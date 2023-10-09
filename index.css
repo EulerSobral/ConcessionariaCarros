@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*.class-hide-mobile{  
+  opacity: 0;
+  overflow: hidden;
+}*/
+.div-bg{  
+  width: 100%; 
+  padding: 10%;  
+  margin-top: 40px;
+  background-image: url('./imagens/bg.jpg');  
+  background-size: cover;
+  background-repeat: no-repeat; 
+}  
+.btn-bg{  
+  width: 300px; 
+  text-align: center; 
+  color: aliceblue; 
+  text-decoration: none; 
+  font-weight: 600;  
+  background-repeat: no-repeat;
+  padding: 15px;
+  background-image: url('./imagens/box-text.png');
+}  
+.btn-bg-e{ 
+  width: 300px; 
+  text-align: center; 
+  color: #000; 
+  text-decoration: none; 
+  font-weight: 600;  
+  background-repeat: no-repeat;
+  padding: 15px;
+  background-image: url('./imagens/box-white-text.png');
+}
+.btns{ 
+  display: flex; 
+  flex-direction: column; 
+  gap: 25px;
+  width: 200px; 
+  position: relative;  
+  right: 85px; 
+  bottom: 50px;
+} 
+.title-cars{ 
+  margin-top: 20px; 
+  text-align: center;  
+  font-style: italic; 
+  text-transform: uppercase;
+} 
+.div-title{ 
+  background-color: #000;  
+  padding: 1px;
+  width: 420px; 
+  position: relative; 
+  bottom: -43px; 
+  left: 30px;
+} 
+.div-title-2{ 
+  background-color: #000;  
+  padding: 1px;
+  width: 400px; 
+  position: relative; 
+  top: -24px; 
+  left: 860px;
+} 
+.cars{ 
+  display: flex;   
+  margin: 40px;
+  justify-content: space-around;
+} 
+.cars-content  .img-car{ 
+  width: 350px; 
+}
+.cars-content .tipo-carro{ 
+  font-size: 20px;
+  font-weight: 600; 
+} 
+.cars-content .description-carro{ 
+  color: #797979;  
+} 
+.form-group{ 
+  margin: 60px;
+}  
+.btn-primary{ 
+  margin:-30px 0 40px 60px;
+}
+.form-group > label{ 
+  font-weight: 600; 
+  font-style: italic;
+} 
+.div-2-title{ 
+  background-color: #000;  
+  padding: 1px;
+  width: 520px; 
+  position: relative; 
+  bottom: -43px; 
+  left: 30px;
+} 
+.div-2-title-2{ 
+  background-color: #000;  
+  padding: 1px;
+  width: 520px; 
+  position: relative; 
+  top: -25.5px; 
+  left: 750px;
+}    
+.bg-dark{ 
+  padding: 25px;
+} 
+.title{ 
+  margin-top: 150px;
+  text-align: center;
+} 
+.div-title-venda{ 
+  background-color: #000;  
+  padding: 1px;
+  width: 550px; 
+  position: relative; 
+  bottom: -26px; 
+  left: 30px;
+} 
+.div-title-venda-2{ 
+  background-color: #000;  
+  padding: 1px;
+  width: 550px; 
+  position: relative; 
+  top: -16px; 
+  left: 728px;
+}
+.main-venda{ 
+  margin-top: 50px;
+  display: flex; 
+  justify-content: space-between;
+} 
+.filtro-venda{ 
+  margin: 20px; 
+  gap: 20px;
+} 
+.filtro-title{  
+  margin-top: 20px;
+  margin-bottom: 15px;
+} 
+.input-ano{  
+  display: flex;
+  flex-direction: column;
+} 
+.cars-venda{ 
+  position: relative; 
+ left: -10px;
+} 
+.main-cars{ 
+  display: flex;  
+  width: 1000px;
+  justify-content: space-around; 
+  margin-bottom: 80px;
+}  
+.preco-carro{ 
+  color: rgb(214, 22, 22);
+  font-weight: 600;
+} 
+.title-sobre{ 
+  text-align: center; 
+  margin-top: 20px;
+} 
+.div-sobre{ 
+  background-color: #000;  
+  padding: 1px;
+  width: 550px; 
+  position: relative; 
+  bottom: -24px; 
+  left: -80px;
+}   
+.div-sobre-2{ 
+  background-color: #000;  
+  padding: 1px;
+  width: 520px; 
+  position: relative; 
+  top: -17px; 
+  left: 614px;
+} 
+.back-big{ 
+  background-color: #ccc; 
+  padding: 200px; 
+  margin: 40px 0;
+}
+.content-sobre{ 
+  margin: 150px 120px;
+}  
+.first-p{ 
+  word-wrap: break-word; 
+  font-weight: 600;
+}  
+.content-child-sobre{ 
+  display: flex; 
+  margin: 40px 0;
+}
+.back-litle{  
+  background-color: #ccc;
+  padding: 100px; 
+  width: 100px;
+} 
+.second-p{ 
+  word-break: break-word; 
+  width: 700px;  
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 667px){ 
+  .div-bg{ 
+    margin-top: 90px;
+  }
+  .btns{  
+    right: 15px; 
+    bottom: 20px; 
+  }  
+  .btn-bg{ 
+    width: 220px;
+  } 
+  .btn-bg-e{ 
+    width: 220px;
+  } 
+  .div-title{ 
+    width: 80px; 
+    bottom: -40px; 
+    left: 10px;
+  } 
+  .div-title-2{ 
+    width: 80px;  
+    left: 400px; 
+    top: -22px;
+  } 
+  .cars{ 
+    flex-direction: column; 
+    gap: 50px; 
+    margin-left: 80px;
+  } 
+  .div-2-title{ 
+    width: 150px; 
+    bottom: -40px; 
+    left: 20px;
+  } 
+  .div-2-title-2{ 
+    width: 155px;  
+    left: 315px; 
+    top: -22px;
+  }   
+  .main-venda{ 
+    flex-direction: column; 
+    gap: 20px;
+  }
+  .filtro-venda{ 
+    margin-left: 150px;
+  } 
+  .main-cars{ 
+    flex-direction: column; 
+    gap: 80px; 
+    margin-left: 130px;
+  } 
+  .div-title-venda{ 
+    width: 180px; 
+    bottom: -20px; 
+    left: 20px;
+  } 
+  .div-title-venda-2{ 
+    width: 180px;  
+    left: 292px; 
+    top: -13.4px;
+  }
+  .div-sobre{ 
+    width: 180px; 
+    bottom: -20px; 
+    left: -40px;
+  }   
+  .div-sobre-2{ 
+    width: 180px;  
+    left: 252px; 
+    top: -13.4px;
+  } 
+  .back-big{ 
+    background-color: #ccc; 
+    padding: 200px; 
+    margin: 40px 0;
+  }
+  .content-sobre{ 
+    margin: 150px 50px;
+  }  
+  .first-p{ 
+    word-wrap: break-word; 
+    font-weight: 600;
+  }  
+  .content-child-sobre{ 
+    flex-direction: column; 
+    gap: 20px;
+  }
+  .back-litle{  
+    background-color: #ccc;
+    padding: 100px; 
+    width: 350px; 
+    
+  } 
+  .second-p{ 
+    margin-left: 0; 
+    width: 400px;
+    font-weight: 600; 
+    text-align: start;
+  }
+}
