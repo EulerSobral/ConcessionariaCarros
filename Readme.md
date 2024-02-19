@@ -1,7 +1,7 @@
 # Concessionaria Carros
-O projeto consiste em uma página front-end sobre uma concessionária de carros. Não apliquei o back-end nessa projeto
-Esse projeto foi baseado em uma das ativdades do curso da Danki Code. No projeto proposto pela Danki Code, a ideia era realizar o projeto só com JavaScript, HTML e CSS. 
-Na minha concepção, realizei o projeto acrescentado os frameworks React e BootStrap. 
+O projeto consiste em uma página front-end sobre uma concessionária de carros, não apliquei o back-end nesse projeto.
+Esse projeto foi baseado em uma das ativdades do curso da Danki Code, a ideia era realizar o projeto só com JavaScript, HTML e CSS. 
+Mas, decidi acrescentar os frameworks React e BootStrap. 
 
 # Tecnologias Utilizadas
   * (JavaScript)[https://developer.mozilla.org/pt-BR/docs/Web/JavaScript]
