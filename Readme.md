@@ -4,11 +4,11 @@ Esse projeto foi baseado em uma das ativdades do curso da Danki Code, a ideia er
 Mas, decidi acrescentar os frameworks React e BootStrap. 
 
 # Tecnologias Utilizadas
-  * (JavaScript)[https://developer.mozilla.org/pt-BR/docs/Web/JavaScript]
-  * (HTML)[https://developer.mozilla.org/pt-BR/docs/learn/getting_started_with_the_web/html_basics]
-  * (CSS)[https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics]
-  * (BootStrap)[https://getbootstrap.com/]
-  * (React)[https://react.dev/]
+  * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+  * [HTML](https://developer.mozilla.org/pt-BR/docs/learn/getting_started_with_the_web/html_basics)
+  * [CSS](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics)
+  * [BootStrap](https://getbootstrap.com/)
+  * [React](https://react.dev/)
 
 # Dependências e Versões Necessárias
   * React versão 18.2.0
@@ -17,4 +17,4 @@ Mas, decidi acrescentar os frameworks React e BootStrap.
   * Node.js 18.18.2
 
 # Como rodar o projeto
-Para abrir o projeto, acesse (aqui)[https://concessionariacarros.netlify.app/]
+Para abrir o projeto, acesse [aqui](https://concessionariacarros.netlify.app/)
